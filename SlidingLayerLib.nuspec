@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Android-SlidingLayerLib</id>
+    <version>1.0.4</version>
+    <title>Android SlidingLayerLib</title>
+    <authors>receme</authors>
+    <owners>receme</owners>
+    <licenseUrl>https://github.com/receme/AndroidSlidingLayer_Xamarin_Version/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/receme/AndroidSlidingLayer_Xamarin_Version</projectUrl>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin android porting for the library https://github.com/wunderlist/android-sliding-layer-lib</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <language>en-US</language>
+    <tags>xamarin android sliding layer layout</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.v4" version="23.3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- PCL -->
+    <file src="bin/Release/SlidingLayerLib.dll" target="lib\MonoAndroid403\SlidingLayerLib.dll" />    
+  </files>
+</package>
