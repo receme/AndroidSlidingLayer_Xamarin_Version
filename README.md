@@ -141,7 +141,7 @@ protected override void OnCreate (Bundle savedInstanceState)
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.activity_main);
-			slidingLayer = FindViewById<SlidingLayer> (Resource.Id.upadteExpensePanel);
+			slidingLayer = FindViewById<SlidingLayer> (Resource.Id.slidingLayer1);
 		    SetupSlidingView ();
 
 		}
